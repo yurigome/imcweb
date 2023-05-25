@@ -11,7 +11,7 @@ function calcularImc(){
         result.style.visibility='visible';
 
         var imc= peso/(altura*altura);
-        console.log(imc);
+        //console.log(imc);
 
         result.innerHTML='<h3>Seu IMC é: '+imc.toFixed(2)+'</h3>'
 
